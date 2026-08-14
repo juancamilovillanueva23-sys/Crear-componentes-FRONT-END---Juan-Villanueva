@@ -1,13 +1,13 @@
 *{
     margin: 0px;
     padding: 0px;
+
 }
 .cabeza{
     display: flex;
     background-color: rgb(198, 195, 169);
     width: 100%;
-    background-image:url(/img/fondo_header.jpg);
-    background-size: cover;
+    background-image:url(/img/f_h.jpg);
 }
 .foto1{
     display: flex;
@@ -16,17 +16,18 @@
     border-radius: 25px;
 }
 .info_h{
-    justify-content: center;
     padding-left: 40px;
-    color: aliceblue;
+    color: rgb(255, 41, 41);
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 60px;
 }
 .info_lat{
     display:flex;
-    width: 1100px;
+    /* width: 1100px; */
+    width: 100%;
     height: 100%;
     background-color: rgb(255, 255, 255);
+    justify-content: space-around;
     
 }
 .perfil{
@@ -36,15 +37,30 @@
     margin-left: 60px;
     border-radius: 30px;
     margin-top: 30px;
+    background-image: url(/img/fondo_per2.jpg);
+    background-size: cover;
 }
 .info_per{
     margin-left: 20px;
     margin-top: 20px;
-    color: aliceblue;
+    color: #2C221E;
+
 }
-.person_i{
-    color: rgb(73, 226, 43);
+.person_1{
+    color: #58181F;
 }
 .exp{
     padding-top: 20px;
+    
 }
+.card_1{
+    display: flex;
+}
+.fil1{
+    width: 300px;
+    display: flex;
+
+}
+
+
+
