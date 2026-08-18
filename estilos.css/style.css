@@ -7,7 +7,8 @@
     display: flex;
     background-color: rgb(198, 195, 169);
     width: 100%;
-    background-image:url(/img/f_h.jpg);
+    background:url(/img/f_h.jpg) center ;
+    background-size:contain;
 }
 .foto1{
     display: flex;
@@ -17,9 +18,15 @@
 }
 .info_h{
     padding-left: 40px;
-    color: rgb(255, 41, 41);
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-right: 30px;
+    margin-left: 360px;
+    margin-top: 150px;
+    color: rgb(0, 0, 0);
+    font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 60px;
+    border: 7px solid rgb(43, 44, 48);
+    height: 300px;
+    backdrop-filter: blur(15px);
 }
 .info_lat{
     display:flex;
@@ -61,6 +68,40 @@
     display: flex;
 
 }
+.redes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, #4a4a4a, #000000);
 
+}
+.lista{
+    display: flex;
+    list-style: none;
+    gap:400px;
+    font-size:40px;
+    color: white;
+}
 
+.fa-instagram{
+    
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+
+}
+.fa-whatsapp{
+   
+  background-color: #25D366;
+  color: #FFFFFF;
+
+}
+.fa-phone{
+
+  background: linear-gradient(180deg, #34C759 0%, #28A745 100%);
+  color: #ffffff;
+}
+body{
+    background-image: url(https://img.magnific.com/vector-premium/fondo-pared-ladrillo-textura-iluminada-luz-neon-oscura_91645-71.jpg?semt=ais_test_b&w=740&q=80) ;
+    background-size: contain;
+}
 
